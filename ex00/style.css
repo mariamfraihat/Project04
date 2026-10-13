@@ -122,7 +122,7 @@ h2 {
 
 .card {
   width: 250px;
-  height: 150px;
+  height: 180px;
   padding: 25px;
   background-color: #105664;
   color: beige;
@@ -212,6 +212,9 @@ h2 {
     cursor: pointer;
 }
 
+#form-message {
+    color: beige;
+}
 
 /* Dark Mode Details */
 body.dark {
@@ -266,4 +269,12 @@ body.dark #contact-form textarea {
 body.dark #contact-form button {
     color: #D3968C;
     border-color: #D3968C;
+}
+
+
+body.dark #form-message {
+    color: beige;
+}
+footer{
+    text-align: center;
 }
