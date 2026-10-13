@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name ="viewport" content ="width = device-width , initial-scale = 1.0">
+
+        <link rel = "stylesheet" href="style.css">
+        <title>My portfolio</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <h2>My Portfolio</h2>
+        
+                <div class = "nav-links" id = "navLinks">
+                        <a class="nav-link" href= "#about-me">About Me</a> 
+                        <a class="nav-link" href= "#projects">Projects</a> 
+                        <a class="nav-link" href= "#skills">Skills</a> 
+                        <a class="nav-link" href= "#hobbies">Hobbies</a>
+                        <a class="nav-link" href= "#contact">Contact</a>
+                </div>
+ 
+                <button id="theme-btn" type="button">Change Theme</button>
+    
+            </nav>    
+        </header>
+        <main>
+
+            <section class="hero">
+                <p>welcome to my portfolio!</p>
+                <h1>Hello, I'm Mariam</h1>
+                
+                <div class="hero-buttons">
+                    <a href="mailto:mariamfraihat9@gmail.com" class="social-btn">Email</a>
+                    <a href="https://linkedin.com/in/mariam-fraihat" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+                    <a href="https://github.com/mariamfraihat" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+                </div>
+                <img src="assets/profile.jpg" alt="My profile photo">
+
+            </section>
+
+
+            <section id="about-me" class="section">
+                <h2>About Me</h2>
+                <p>
+                Curious mind and creative problem solver dedicated to turning complex ideas into simple, meaningful solutions.
+                </p>
+            </section>
+
+
+            <section id="skills" class="section">
+            
+                <h2>My Skills</h2>
+
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Proficient in identifying issues, analyzing data, and implementing effective solutions to enhance system performance and user experience.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Critical Thinking</h3>
+                        <p>
+                            Ability to analyze complex problems, identify root causes, and develop effective solutions, ensuring optimal outcomes.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Adaptability</h3>
+                        <p>
+                            Ability to quickly learn new technologies and adapt to changing environments, ensuring continuous growth and improvement.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Communication</h3>
+                        <p>
+                            Strong written and verbal communication skills, with the ability to convey complex technical concepts to non-technical stakeholders.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+            
+                <h2>My Projects</h2>
+
+                <div class="card-container">
+                    <div class="pcard">
+                        <h3>Project 00: Linux & Git</h3>
+                        <p ><a class = "gitlink" href="https://github.com/mariamfraihat/Project00.git" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <div class="pcard">
+                        <h3>Project 01: HTML</h3>
+                        <p ><a class = "gitlink" href="https://github.com/mariamfraihat/Project01.git" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <div class="pcard">
+                        <h3>Project 02: CSS</h3>
+                        <p ><a class = "gitlink" href="https://github.com/mariamfraihat/Project02.git" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                    <div class="pcard">
+                        <h3>Project 03: JavaScript</h3>
+                        <p ><a class = "gitlink" href="https://github.com/mariamfraihat/Project03.git" target="_blank">View on GitHub</a></p>
+                    </div>
+
+                </div>
+            </section>
+
+                       <section id="hobbies" class="section">
+            
+                <h2>Hobbies</h2>
+
+                <div class="card-container">
+                    <div class="hcard">
+                        <h3>Reading & Audiobooks</h3>
+                    </div>
+
+                    <div class="hcard">
+                        <h3>Cooking & Baking</h3>
+                    </div>
+
+                    <div class="hcard">
+                        <h3>Writing / Journaling</h3>
+                    </div>
+
+                    <div class="hcard">
+                        <h3>Puzzles & Brainteasers</h3>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="content-h2">Contact Me</h2>
+            <form id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required >
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required >
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required ></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                    <p id="form-message" aria-live="polite"></p>
+                </form>
+            </section>
+
+            
+        </main>
+        <footer>© 2026 Mariam. All rights reserved.</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,269 @@
+:root{
+    --midnight: #105664;
+    --rosyBrown: #D3968C;
+    --beige: #F5F5DC;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: beige;
+    color: #105664;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    gap: 20px;
+    color : #105664;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.nav-link {
+    color: #105664;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar h2{
+    color: #105664 ;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 147px;
+}
+
+#theme-btn {
+  padding: 10px 20px;
+  margin-right: 147px;
+  background-color: #105664;
+  color: beige;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.section {
+  padding: 15px 8%;
+  scroll-margin-top: 20px;
+}
+
+.hero {
+    position: relative;
+    margin-inline: auto;
+    width: 1500px;
+    height: 200px;
+    padding: 40px;
+    padding-inline: 100px;
+    background-color: #105664;
+    border-radius: 10px;
+    color: beige;
+}
+
+.hero img {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-50%);
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.social-btn{
+    background-color: beige;
+    padding: 10px;
+    margin: 5px;
+    color: #105664;
+    border-radius: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+h1 {
+    color: beige;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #105664 ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.section p{
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  padding: 25px;
+  background-color: #105664;
+  color: beige;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+
+.gitlink {
+  color: beige;
+  text-decoration: none;
+  font-size: 13px;
+  background-color: beige;
+  color: #105664;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pcard {
+  width: 200px;
+  height: 120px;
+  padding: 25px;
+  background-color: #105664;
+  color: beige;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+.hcard {
+  width: 150px;
+  height: 80px;
+  padding: 25px;
+  background-color: #105664;
+  color: beige;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+.content-h2 {
+    display: flex;
+    color: #105664;
+    align-content: left;
+    align-items: left;
+    margin-top: 90px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    margin-top: 25px;
+    border: 4px solid #105664 ;
+    background-color: #105664;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#contact-form label {
+    color: beige;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 12px;
+    background-color: beige;
+    border: 4px solid #105664 ;
+    border-radius: 10px;
+}
+
+#contact-form button {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: beige;
+    color: #105664;
+    border: 4px solid #105664 ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Dark Mode Details */
+body.dark {
+    color: #D3968C;
+}
+
+body.dark .navbar {
+    color: #D3968C;
+}
+
+body.dark .nav-link {
+    color: #D3968C;
+}
+
+body.dark #theme-btn {
+    background-color: #D3968C;
+}
+
+body.dark .hero {
+    background-color: #D3968C;
+}
+
+body.dark .social-btn {
+    color: #D3968C;
+}
+
+body.dark h2,
+body.dark .content-h2 {
+    color: #D3968C;
+}
+
+body.dark .card,
+body.dark .pcard,
+body.dark .hcard {
+    background-color: #D3968C;
+}
+
+body.dark .gitlink {
+    color: #D3968C;
+}
+
+body.dark #contact-form {
+    background-color: #D3968C;
+    border-color: #D3968C;
+}
+
+body.dark #contact-form input,
+body.dark #contact-form textarea {
+    border-color: #D3968C;
+}
+
+body.dark #contact-form button {
+    color: #D3968C;
+    border-color: #D3968C;
+}
